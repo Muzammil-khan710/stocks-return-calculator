@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">
+<title>Stock Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+		<h1>Stock Calculator</h1>
+		<form>
+			<div class="form-control">
+				<label>Buying Price</label>
+				<input type="text" id="stock-price" required>
+			</div>
+			<div class="form-control">
+				<label>Quantity of Stocks</label>
+				<input type="text" id="quantity" required>
+			</div>
+			<div class="form-control">
+				<label>Current Price</label>
+				<input type="text" id="sell-price" required>
+			</div>
+			<div id="output"></div>
+			<div class="btn-center">
+				<button id="check-btn">Check</button>
+			</div>
+		</form>
+		
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
