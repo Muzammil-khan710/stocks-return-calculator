@@ -32,7 +32,7 @@ if (costPrice > 0 && numberOfStocks > 0 && currentCost > 0){
 		output.innerText="Same to same hai ye to"
 		document.body.style.backgroundColor = "#b9edfb"
 	}
-	else if(gain < -50){
+	else if(gain < 50){
 		
 		gain = Math.abs(gain);
 		const lossPercent = ((gain * 100) / oldTotal).toFixed(2);
